@@ -134,7 +134,7 @@ def mostrar_estadisticas(productos):
         print ("No hay productos cargados.")
         return
     total_productos = len (productos)
-    stock_total = sum (p["Stock"] for p in productos)
+    stock_total = sum (p["stock"] for p in productos)
     valor_inventario = sum (p["precio"] * p ["stock"] for p in productos)
     sin_stock = [p for p in productos if p ["stock"] == 0]
     categorias = set (p["categoria"] for p in productos)
