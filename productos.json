@@ -1,0 +1,24 @@
+[ 
+    {
+        "id":1,
+        "nombre":"Leche Entera",
+        "categoria":"Lácteos",
+        "precio":1850,
+        "stock":25
+    },
+    {
+        "id":2,
+        "nombre":"Arroz Largo Fino",
+        "categoria":"Almacén",
+        "precio":2400,
+        "stock":18
+    },
+    {
+        "id":3,
+        "nombre":"Gaseosa Cola 2.25L",
+        "categoria":"Bebidas",
+        "precio":3200,
+        "stock":12
+    }
+
+]
